@@ -1,0 +1,26 @@
+#To structure your modules, you can group them into packages. A package is basically just another type of module.
+#The interesting thing about them is that they can contain other modules. While a module is stored in a file(with
+#file name extension .py). a package is a directory. To make Python treat it as a package, it must contain a file(module) named
+#__init__.py. The content of that file will be contents of the package, if you import it as if it were a plain module. 
+
+
+#To put modules inside a package, simply put the module files inside the package directory.
+#Table 10-1. A Simple Package Layout
+#File/Directory                     Description
+#~/python/                          Directory in PYTHONPATH
+#~/python/drawing/                  Package directory (drawing package)
+#~/python/drawing/__init__.py       Package code (drawing module)
+#~/python/drawing/colors.py         colors module
+#~/python/drawing/shapes.py         shapes module
+
+
+
+#how to get module details, help(drawing)
+
+#how to get module source file path: print drawing.__file__
+
+#stand module: sys, os, fileinput, sets, heaps, deques, random, time, random, shelve(a simple file manipulation module), re(regular expression)
+#datetime, csv, getopt, optparse, cmd, logging
+
+#regular expression: greddy vs. nongreddy patterns
+#All the repetitionoperators can be made nongreedy by putting a question mark after them:
